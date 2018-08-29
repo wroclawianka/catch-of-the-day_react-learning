@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 class StorePicker extends React.Component {
   render() {
@@ -8,7 +8,7 @@ class StorePicker extends React.Component {
         <input type="text" required placeholder="Store Name" />
         <button type="submit">Visit Store -> </button>
       </form>
-    )
+    );
     // You can create element with React this way:
     // return React.createElement('p', { className: 'greeting'}, 'Good Morning!!');
     // return (
