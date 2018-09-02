@@ -7,7 +7,7 @@ const firebaseApp = firebase.initializeApp({
   databaseURL: "https://catch-of-the-day-dorota-zelga.firebaseio.com"
 });
 
-const base = Rebase.createClass(firebase.database());
+const base = Rebase.createClass(firebaseApp.database());
 
 // named export
 export { firebaseApp };
