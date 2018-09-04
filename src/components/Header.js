@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // Stateless functional component. there is couple of variaton of this, check video 9 for details
 const Header = ({tagline}) => (
@@ -17,5 +18,9 @@ const Header = ({tagline}) => (
         </h3>
     </header>
   )
+
+  Header.propTypes = {
+    tagline: PropTypes.string.isRequired
+  }
 
 export default Header;
